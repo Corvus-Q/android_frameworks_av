@@ -808,7 +808,7 @@ Return<ModuleTraits::Element> ModuleTraits::deserialize(const xmlNode *cur, PtrS
         }
     }
     ALOGE("Good morning");
-    fixupQualcommBtScoRoute(routes, devicePorts, module.get());
+    
     ALOGE("Good morning2");
     module->setRoutes(routes);
 
